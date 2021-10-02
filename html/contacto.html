@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -12,16 +13,26 @@
 </head>
 <body>
     <header>
-        <nav class="nav"> <!--Inicio Nav-->
-            <ul class="nav__menu opacar">
-                <li class="nav__Links"><a href="../index.html">Inicio</a></li>
-                <li class="nav__Links"><a href="/html/noticias.html">Noticias</a></li>
-                <li class="nav__Links"><a href="/html/proyectos.html">Proyectos</a></li>
-                <li class="nav__Links"><a href="/html/nosotros.html">Nosotros</a></li>
-                <li class="nav__Links"><a href="/html/contacto.html">Contacto</a></li>
-                <li class="nav__Links"><img class="nav__img" src="../img/iconoclaro.png" alt="modo claro"></li>
-            </ul>
-        </nav> <!--Fin Nav-->
+        <ul class="nav justify-content-end opacar">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="noticias.html">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="proyectos.html">Proyectos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <img class="icono" src="../img/iconoclaro.png" alt="icono tema">
+            </li>
+        </ul>
         <div class="contenedor"><!--Inicio Banner-->
             <img class="banner" src="../img/banner.jpg"/>
             <h1 class="centrado">Our Planet</h1>
@@ -77,6 +88,7 @@
     </footer><!--Fin footer-->
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
 </body>
 </html>

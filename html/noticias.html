@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,17 +13,26 @@
 </head>
 <body>
     <header>
-        <nav class="nav"> <!--Inicio Nav-->
-            <ul class="nav__menu opacar">
-                <li class="nav__Links"><a href="../index.html">Inicio</a></li>
-                <li class="nav__Links"><a href="/html/noticias.html">Noticias</a></li>
-                <li class="nav__Links"><a href="/html/proyectos.html">Proyectos</a></li>
-                <li class="nav__Links"><a href="/html/nosotros.html">Nosotros</a></li>
-                <li class="nav__Links"><a href="/html/contacto.html">Contacto</a></li>
-                <li class="nav__Links"><img class="nav__img" src="../img/iconoclaro.png" alt="modo claro"></li>
-            </ul>
-        </nav> <!--Fin Nav-->
-        </nav>
+        <ul class="nav justify-content-end opacar">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="noticias.html">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="proyectos.html">Proyectos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <img class="icono" src="../img/iconoclaro.png" alt="icono tema">
+            </li>
+        </ul>
         <div class="contenedor"><!--Inicio Banner-->
             <img class="banner" src="../img/banner.jpg"/>
             <h1 class="centrado">Our Planet</h1>
@@ -35,74 +45,120 @@
             <div class="novedades"><!--Inicio Novedades-->
                 <div class="grayscale">
                     <h4 class="texto-overlay">Titulo de la noticia</h4>
-                    <img class="noticias__img" src="../img/trash.jpg" alt="imagen noticias">
+                    <img class="noticias__img" src="../img/trash.jpg" alt="imagen noticiagen noticias">
                 </div>
                 <div class="grayscale">
                     <h4 class="texto-overlay">Titulo de la noticia</h4>
-                    <img class="noticias__img" src="../img/fox.jpg" alt="imagen noticias">
+                    <img class="noticias__img" src="../img/fox.jpg" alt="imagen noticiagen noticias">
                 </div>
                 <div class="grayscale">
                     <h4 class="texto-overlay">Titulo de la noticia</h4>
-                    <img class="noticias__img" src="../img/industry2.png" alt="imagen noticias">
+                    <img class="noticias__img" src="../img/industry2.png" alt="imagen noticiagen noticias">
                 </div>
                 <div class="grayscale">
                     <h4 class="texto-overlay">Titulo de la noticia</h4>
-                    <img class="noticias__img" src="../img/deforestacion.jpg" alt="imagen noticias">
+                    <img class="noticias__img" src="../img/deforestacion.jpg" alt="imagen noticiagen noticias">
                 </div>
                 <div class="grayscale">
                     <h4 class="texto-overlay">Titulo de la noticia</h4>
-                    <img class="noticias__img" src="../img/bird.jpg" alt="imagen noticias">
+                    <img class="noticias__img" src="../img/bird.jpg" alt="imagen noticiagen noticias">
                 </div>
                 <div class="grayscale">
                     <h4 class="texto-overlay">Titulo de la noticia</h4>
-                    <img class="noticias__img" src="../img/incendios.jpg" alt="imagen noticias">
+                    <img class="noticias__img" src="../img/incendios.jpg" alt="imagen noticiagen noticias">
                 </div>
 
             </div> <!--Fin Novedades-->
             <h2 class="subtitulos">Noticias sobre el medio ambiente</h2>
             <div class="sectionNoticias">
-                <div class="noticia"><!--Inicio Noticia-->
-                    <img class="noticia__imagen" src="../img/industry.jpg" alt="imagen noticia">
-                    <h3 class="noticia__titulo">Lorem ipsum dolor sit amet consectetur.</h3>
-                    <p class="noticia__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestiae dignissimos, aliquam pariatur accusamus porro ex laboriosam perspiciatis nisi dolorum illum natus nam doloremque non debitis unde minus, voluptates repellat.</p>
-                    <a class="botonAnimado" href="../html/noticias.html">Leer mas</a>
-                </div><!--Fin Noticia-->
-                <div class="noticia"><!--Inicio Noticia-->
-                    <img class="noticia__imagen" src="../img/industry.jpg" alt="imagen noticia">
-                    <h3 class="noticia__titulo">Lorem ipsum dolor sit amet consectetur.</h3>
-                    <p class="noticia__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestiae dignissimos, aliquam pariatur accusamus porro ex laboriosam perspiciatis nisi dolorum illum natus nam doloremque non debitis unde minus, voluptates repellat.</p>
-                    <a class="botonAnimado" href="../html/noticias.html">Leer mas</a>
-                </div><!--Fin Noticia-->
-                <div class="noticia"><!--Inicio Noticia-->
-                    <img class="noticia__imagen" src="../img/industry.jpg" alt="imagen noticia">
-                    <h3 class="noticia__titulo">Lorem ipsum dolor sit amet consectetur.</h3>
-                    <p class="noticia__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestiae dignissimos, aliquam pariatur accusamus porro ex laboriosam perspiciatis nisi dolorum illum natus nam doloremque non debitis unde minus, voluptates repellat.</p>
-                    <a class="botonAnimado" href="../html/noticias.html">Leer mas</a>
-                </div><!--Fin Noticia-->
-                <div class="noticia"><!--Inicio Noticia-->
-                    <img class="noticia__imagen" src="../img/industry.jpg" alt="imagen noticia">
-                    <h3 class="noticia__titulo">Lorem ipsum dolor sit amet consectetur.</h3>
-                    <p class="noticia__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestiae dignissimos, aliquam pariatur accusamus porro ex laboriosam perspiciatis nisi dolorum illum natus nam doloremque non debitis unde minus, voluptates repellat.</p>
-                    <a class="botonAnimado" href="../html/noticias.html">Leer mas</a>
-                </div><!--Fin Noticia-->
-                <div class="noticia"><!--Inicio Noticia-->
-                    <img class="noticia__imagen" src="../img/industry.jpg" alt="imagen noticia">
-                    <h3 class="noticia__titulo">Lorem ipsum dolor sit amet consectetur.</h3>
-                    <p class="noticia__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestiae dignissimos, aliquam pariatur accusamus porro ex laboriosam perspiciatis nisi dolorum illum natus nam doloremque non debitis unde minus, voluptates repellat.</p>
-                    <a class="botonAnimado" href="../html/noticias.html">Leer mas</a>
-                </div><!--Fin Noticia-->
-                <div class="noticia"><!--Inicio Noticia-->
-                    <img class="noticia__imagen" src="../img/industry.jpg" alt="imagen noticia">
-                    <h3 class="noticia__titulo">Lorem ipsum dolor sit amet consectetur.</h3>
-                    <p class="noticia__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestiae dignissimos, aliquam pariatur accusamus porro ex laboriosam perspiciatis nisi dolorum illum natus nam doloremque non debitis unde minus, voluptates repellat.</p>
-                    <a class="botonAnimado" href="../html/noticias.html">Leer mas</a>
-                </div><!--Fin Noticia-->
-                <div class="noticia"><!--Inicio Noticia-->
-                    <img class="noticia__imagen" src="../img/industry.jpg" alt="imagen noticia">
-                    <h3 class="noticia__titulo">Lorem ipsum dolor sit amet consectetur.</h3>
-                    <p class="noticia__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo molestiae dignissimos, aliquam pariatur accusamus porro ex laboriosam perspiciatis nisi dolorum illum natus nam doloremque non debitis unde minus, voluptates repellat.</p>
-                    <a class="botonAnimado" href="../html/noticias.html">Leer mas</a>
-                </div><!--Fin Noticia-->
+                <div class="card" style="width: 22rem;">
+                    <img src="../img/pollution.jpg" class="card-img-top" alt="imagen noticia">
+                    <div class="card-body">
+                      <h5 class="card-title">Titulo Noticia</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Ir a la noticia</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 22rem;">
+                    <img src="../img/bird.jpg" class="card-img-top" alt="imagen noticia">
+                    <div class="card-body">
+                      <h5 class="card-title">Titulo Noticia</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Ir a la noticia</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 22rem;">
+                    <img src="../img/deforestacion.jpg" class="card-img-top" alt="imagen noticia">
+                    <div class="card-body">
+                      <h5 class="card-title">Titulo Noticia</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Ir a la noticia</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 22rem;">
+                    <img src="../img/fox.jpg" class="card-img-top" alt="imagen noticia">
+                    <div class="card-body">
+                      <h5 class="card-title">Titulo Noticia</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Ir a la noticia</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 22rem;">
+                    <img src="../img/incendios.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Titulo Noticia</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Ir a la noticia</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 22rem;">
+                    <img src="../img/industry2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Titulo Noticia</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Ir a la noticia</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 22rem;">
+                    <img src="../img/sea.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Titulo Noticia</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Ir a la noticia</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 22rem;">
+                    <img src="../img/trash.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Titulo Noticia</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Ir a la noticia</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 22rem;">
+                    <img src="../img/whale.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Titulo Noticia</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Ir a la noticia</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 22rem;">
+                    <img src="../img/banner.jpg" class="card-img-top" alt="imagen noticia">
+                    <div class="card-body">
+                      <h5 class="card-title">Titulo Noticia</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Ir a la noticia</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 22rem;">
+                    <img src="../img/pollution.jpg" class="card-img-top" alt="imagen noticia">
+                    <div class="card-body">
+                      <h5 class="card-title">Titulo Noticia</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Ir a la noticia</a>
+                    </div>
+                </div>
             </div>
         </section>
     </main> 
@@ -122,5 +178,7 @@
         <p class="redes">Twitter</p>
         <p class="redes">Facebook</p>
     </footer><!--Fin footer-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
 </body>
 </html>

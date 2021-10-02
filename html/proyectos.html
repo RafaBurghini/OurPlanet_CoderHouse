@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,16 +13,26 @@
 </head>
 <body>
     <header>
-        <nav class="nav"> <!--Inicio Nav-->
-            <ul class="nav__menu opacar">
-                <li class="nav__Links"><a href="../index.html">Inicio</a></li>
-                <li class="nav__Links"><a href="/html/noticias.html">Noticias</a></li>
-                <li class="nav__Links"><a href="/html/proyectos.html">Proyectos</a></li>
-                <li class="nav__Links"><a href="/html/nosotros.html">Nosotros</a></li>
-                <li class="nav__Links"><a href="/html/contacto.html">Contacto</a></li>
-                <li class="nav__Links"><img class="nav__img" src="../img/iconoclaro.png" alt="modo claro"></li>
-            </ul>
-        </nav> <!--Fin Nav-->
+        <ul class="nav justify-content-end opacar">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="noticias.html">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="proyectos.html">Proyectos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <img class="icono" src="../img/iconoclaro.png" alt="icono tema">
+            </li>
+        </ul>
         <div class="contenedor"><!--Inicio Banner-->
             <img class="banner" src="../img/banner.jpg"/>
             <h1 class="centrado">Our Planet</h1>
@@ -31,35 +42,46 @@
     <main class="contenedorProyectos">
         <h2 class="subtitulos">Proyectos para un planeta mas sano</h2>
         <div class="proyectos">
-            <div class="proyecto"> <!--Inicio Proyecto-->
-                    <img class="proyecto__imagen" src="../img/deforestacion.jpg" alt="Imagen proyecto" loading="lazy">
-                <div class="proyecto__informacion">
-                    <h3 class="proyecto__titulo">Titulo del proyecto</h3>
-                    <p class="proyecto__descripcion">Etiam id velit ante. Pellentesque ornare maximus felis, quis facilisis odio gravida sed. 
-                        Morbi dolor ipsum, consequat a imperdiet id, vulputate sit amet elit.
-                        In scelerisque luctus magna, vel volutpat nulla scelerisque in.</p>
-                    <a class="botonAnimado" href="../html/noticias.html">Leer mas</a>          
-                </div><!--Fin Proyecto-->
+            <div class="card proyecto" style="">
+                <img src="../img/bird.jpg" class="card-img-top proyecto__imagen grayscale" alt="imagen noticia">
+                <div class="card-body">
+                  <h3 class="card-title">Titulo Proyecto</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-outline-info">Mas informacion</button>
+                </div>
             </div>
-            <div class="proyecto"><!--Inicio Proyecto-->
-                    <img class="proyecto__imagen" src="../img/deforestacion.jpg" alt="Imagen proyecto" loading="lazy">
-                <div class="proyecto__informacion">
-                    <h3 class="proyecto__titulo">Titulo del proyecto</h3>         
-                    <p class="proyecto__descripcion">Etiam id velit ante. Pellentesque ornare maximus felis, quis facilisis odio gravida sed. 
-                        Morbi dolor ipsum, consequat a imperdiet id, vulputate sit amet elit.
-                        In scelerisque luctus magna, vel volutpat nulla scelerisque in.</p>
-                    <a class="botonAnimado" href="../html/noticias.html">Leer mas</a>        
-                </div><!--Fin Proyecto-->
+            <div class="card proyecto" style="">
+                <img src="../img/fox.jpg" class="card-img-top proyecto__imagen grayscale" alt="imagen noticia">
+                <div class="card-body">
+                  <h3 class="card-title">Titulo Proyecto</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-outline-info">Mas informacion</button>
+                </div>
             </div>
-            <div class="proyecto"><!--Inicio Proyecto-->
-                    <img class="proyecto__imagen" src="../img/deforestacion.jpg" alt="Imagen proyecto" loading="lazy">
-                <div class="proyecto__informacion">
-                    <h3 class="proyecto__titulo">Titulo del proyecto</h3>               
-                    <p class="proyecto__descripcion">Etiam id velit ante. Pellentesque ornare maximus felis, quis facilisis odio gravida sed. 
-                        Morbi dolor ipsum, consequat a imperdiet id, vulputate sit amet elit.
-                        In scelerisque luctus magna, vel volutpat nulla scelerisque in.</p>
-                    <a class="botonAnimado" href="../html/noticias.html">Leer mas</a>
-                </div><!--Fin Proyecto-->
+            <div class="card proyecto" style="">
+                <img src="../img/pollution.jpg" class="card-img-top proyecto__imagen grayscale" alt="imagen noticia">
+                <div class="card-body">
+                  <h3 class="card-title">Titulo Proyecto</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-outline-info">Mas informacion</button>
+                </div>
+            </div>
+            <div class="card proyecto" style="">
+                <img src="../img/industry.jpg" class="card-img-top proyecto__imagen grayscale" alt="imagen noticia">
+                <div class="card-body">
+                  <h3 class="card-title">Titulo Proyecto</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-outline-info">Mas informacion</button>
+                </div>
+            </div>
+            <div class="card proyecto" style="">
+                <img src="../img/nuclear.jpg" class="card-img-top proyecto__imagen grayscale" alt="imagen noticia">
+                <div class="card-body">
+                  <h3 class="card-title">Titulo Proyecto</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-outline-info">Mas informacion</button>
+                </div>
+            </div>
             </div>
         </div>    
     </main>
@@ -80,5 +102,7 @@
         <p class="redes">Twitter</p>
         <p class="redes">Facebook</p>
     </footer><!--Fin footer-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
 </body>
 </html>
